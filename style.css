@@ -102,8 +102,8 @@ body {
     border: #2c71b8;
     position: absolute;    
     z-index: 10;
-    top: 32px;
-    right: 45px;    
+    top: 7px;
+    right: 3px;    
 }
 
 .search-input {
@@ -205,4 +205,8 @@ li:hover >a {
 li:hover > a > .arrow  {
     border: solid white;
     border-width: 0 2px 2px 0;
+}
+
+form { 
+    position: relative;
 }
